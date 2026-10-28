@@ -1,0 +1,130 @@
+/* General website styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    color: #333333;
+}
+
+h1 {
+    padding-top: 25px;
+}
+
+/* Navigation shared by all three pages */
+nav {
+    padding: 18px;
+    background-color: #65458a;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Home page: pink and lavender */
+.home-page {
+    background-color: #fff0f7;
+}
+
+.home-page h1 {
+    color: #a7437b;
+}
+
+.home-card {
+    background-color: white;
+    max-width: 450px;
+    margin: 35px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #00000015;
+}
+
+.play-link {
+    display: inline-block;
+    background-color: #a7437b;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Dice page: mint green and sky blue */
+.roll-page {
+    background-color: #e7fff7;
+}
+
+.roll-page h1 {
+    color: #258b79;
+}
+
+/* The die */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dice {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 10%;
+    border-right: solid 4px #eaeaea;
+    border-bottom: solid 4px #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result {
+    font-weight: bold;
+    color: #333333;
+    font-size: 60px;
+    text-align: center;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #65458a;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* About page: peach and golden yellow */
+.about-page {
+    background-color: #fff1df;
+}
+
+.about-page h1,
+.about-page h2 {
+    color: #b96b24;
+}
+
+.about-card {
+    background-color: #fffaf2;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    line-height: 1.7;
+    text-align: left;
+}
